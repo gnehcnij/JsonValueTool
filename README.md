@@ -2,7 +2,9 @@
 
 # 使用样例
 
-json:
+**json:**
+
+```json
 {
     "name": "刘禅", 
     "age": "6", 
@@ -36,6 +38,8 @@ json:
         }
     }
 }
+```
 
-获取job中的position值：
-JsonUtils.getValueByKeyExpression(json, "father", "father#properties#job#position")
+**获取job中的position值：**
+
+`JsonUtils.getValueByKeyExpression(json, "father", "father#properties#job#position")`

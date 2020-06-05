@@ -1,0 +1,219 @@
+{
+    "_shards": {
+        "total": 3,
+        "failed": 0,
+        "successful": 3,
+        "skipped": 0
+    },
+    "hits": {
+        "hits": [],
+        "total": 46122,
+        "max_score": 0.0
+    },
+    "took": 97,
+    "timed_out": false,
+    "aggregations": {
+        "2": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "doc_count": 43730,
+                    "3": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "doc_count": 32056,
+                                "4": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "doc_count": 26556,
+                                            "5": {
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0,
+                                                "buckets": [
+                                                    {
+                                                        "doc_count": 25463,
+                                                        "key": "正常执行"
+                                                    },
+                                                    {
+                                                        "doc_count": 1093,
+                                                        "key": "业务异常"
+                                                    }
+                                                ]
+                                            },
+                                            "key": "发票统计"
+                                        }
+                                    ]
+                                },
+                                "key": "广东省"
+                            },
+                            {
+                                "doc_count": 3741,
+                                "4": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1990,
+                                            "5": {
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0,
+                                                "buckets": [
+                                                    {
+                                                        "doc_count": 1987,
+                                                        "key": "正常执行"
+                                                    },
+                                                    {
+                                                        "doc_count": 3,
+                                                        "key": "业务异常"
+                                                    }
+                                                ]
+                                            },
+                                            "key": "工商信息采集"
+                                        }
+                                    ]
+                                },
+                                "key": "全国"
+                            }
+                        ]
+                    },
+                    "key": "查询"
+                },
+                {
+                    "doc_count": 2392,
+                    "3": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                            {
+                                "doc_count": 1655,
+                                "4": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "doc_count": 762,
+                                            "5": {
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0,
+                                                "buckets": [
+                                                    {
+                                                        "doc_count": 674,
+                                                        "key": "正常执行"
+                                                    },
+                                                    {
+                                                        "doc_count": 72,
+                                                        "key": "业务异常"
+                                                    },
+                                                    {
+                                                        "doc_count": 16,
+                                                        "key": "正常失败"
+                                                    }
+                                                ]
+                                            },
+                                            "key": "通用申报表申报"
+                                        },
+                                        {
+                                            "doc_count": 423,
+                                            "5": {
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0,
+                                                "buckets": [
+                                                    {
+                                                        "doc_count": 290,
+                                                        "key": "正常执行"
+                                                    },
+                                                    {
+                                                        "doc_count": 106,
+                                                        "key": "业务异常"
+                                                    },
+                                                    {
+                                                        "doc_count": 23,
+                                                        "key": "正常失败"
+                                                    },
+                                                    {
+                                                        "doc_count": 3,
+                                                        "key": "技术异常"
+                                                    },
+                                                    {
+                                                        "doc_count": 1,
+                                                        "key": "未定义编码"
+                                                    }
+                                                ]
+                                            },
+                                            "key": "增值税一般纳税人申报"
+                                        }
+                                    ]
+                                },
+                                "key": "河北省"
+                            },
+                            {
+                                "doc_count": 313,
+                                "4": {
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0,
+                                    "buckets": [
+                                        {
+                                            "doc_count": 155,
+                                            "5": {
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0,
+                                                "buckets": [
+                                                    {
+                                                        "doc_count": 64,
+                                                        "key": "第三方返回业务失败"
+                                                    },
+                                                    {
+                                                        "doc_count": 62,
+                                                        "key": "业务异常"
+                                                    },
+                                                    {
+                                                        "doc_count": 29,
+                                                        "key": "正常执行"
+                                                    }
+                                                ]
+                                            },
+                                            "key": "批量提交纳税人���报数据"
+                                        },
+                                        {
+                                            "doc_count": 82,
+                                            "5": {
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0,
+                                                "buckets": [
+                                                    {
+                                                        "doc_count": 72,
+                                                        "key": "正常执行"
+                                                    },
+                                                    {
+                                                        "doc_count": 7,
+                                                        "key": "正常失败"
+                                                    },
+                                                    {
+                                                        "doc_count": 2,
+                                                        "key": "业务异常"
+                                                    },
+                                                    {
+                                                        "doc_count": 1,
+                                                        "key": "技术异常"
+                                                    }
+                                                ]
+                                            },
+                                            "key": "增值税一般纳税人申报"
+                                        }
+                                    ]
+                                },
+                                "key": "广东省"
+                            }
+                        ]
+                    },
+                    "key": "申报"
+                }
+            ]
+        }
+    }
+}
