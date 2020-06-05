@@ -42,4 +42,9 @@
 
 **获取job中的position值：**
 
-`JsonUtils.getValueByKeyExpression(json, "father", "father#properties#job#position")`
+```
+// 原版
+JsonUtils.getValueByKeyExpression(json, "father", "father#properties#job#position")
+// 增强版
+see JacksonUtilTest.java
+```

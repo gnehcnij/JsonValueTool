@@ -18,6 +18,8 @@ public class JacksonUtilTest {
         List<Object> o3 = JacksonUtil.fetchValue(json, "aggregations.2.buckets.3.buckets");
         List<Object> o4 = JacksonUtil.fetchValue(json, "aggregations.2.buckets.3.buckets.4");
 
+        Map<String, String> o5 = JacksonUtil.fetchValue(json, "_shards");
+
         System.out.println(o0);
         System.out.println(o1);
         System.out.println(o2);
